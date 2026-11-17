@@ -2,8 +2,10 @@
 Data-driven crop planning and crop-rotation guidance, built for the 2026 NASA Space Apps Challenge.
 
 FieldWise is a web application that helps farmers and growers explore what to plant next based on where their field is located, what was grown previously, and relevant environmental conditions. Instead of relying on a single dataset, it brings together climate, soil, crop-suitability, planting-calendar, and agricultural-economics information to make crop options easier to compare.
-Try the live FieldWise website: 
+Try the live FieldWise website:
+
 https://cache-check---fieldwise-ajl6erw3ka-ue.a.run.app/
+
 Project status: Interactive web demo deployed on Google Cloud Run. Initial location screening can take several minutes while data is processed.
 
 Why we built it
@@ -44,7 +46,9 @@ Data	NASA POWER, SoilGrids, FAO GAEZ, and complementary agricultural datasets
 
 Try it yourself
 Open FieldWise →
+
 https://cache-check---fieldwise-ajl6erw3ka-ue.a.run.app/
+
 For a first test, pick a location and enter the most recent crop. Leave optional measurements blank if you don't have them, then run the analysis and review the results. The initial screen may take a few minutes.
 Limitations
 FieldWise is a decision-support prototype, not a guarantee of crop performance or profitability. Weather datasets, gridded soil estimates, modeled suitability scores, and regional planting calendars may not reflect every condition on a specific farm. The “Food crops to investigate” results are exploratory candidates and should not be treated as validated primary recommendations.
